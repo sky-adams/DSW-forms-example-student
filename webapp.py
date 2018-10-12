@@ -8,7 +8,7 @@ def render_main():
 
 @app.route("/response")
 def render_response():
-    
+    return render_template('response.html')
     
     
 if __name__=="__main__":
